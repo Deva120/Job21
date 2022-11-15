@@ -1,10 +1,11 @@
-package com.example.devajob21
+package com.example.devajob21.com.example.devajob21
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.devajob21.R
 
 class KelasAdapter(private val list:ArrayList<Kelas>): RecyclerView.Adapter<KelasAdapter.KelasViewHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): KelasViewHolder {
